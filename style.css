@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-green {
+  color: #00bb06;
+}
+
+#header div nav {
+  max-height: 60px;
+}
+
+#header div nav div #navsearch {
+  min-width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header div nav div #navsearch input {
+  width: 80%;
+  border-radius: 0px;
+  border: none;
+  padding: 8px 5px;
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+#header div nav div #navsearch div {
+  width: 20%;
+}
+
+#header div nav div #navsearch div button {
+  width: 100%;
+  border-radius: none;
+}
+
+#header div nav ul {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+#header div nav ul li {
+  padding: 5px 15px;
+}
+
+.svg-cont {
+  height: 100%;
+}
+
+.svg-cont img {
+  height: 21px;
+}
+
+#categories div div img {
+  width: 25%;
+}
+
+#categories div div .hover-links {
+  cursor: pointer;
+  font-size: 14px;
+  color: black;
+  font-weight: 500;
+}
+
+#categories div div .hover-links:hover {
+  color: crimson;
+}
+
+#body-content {
+  background-color: #c3ffff;
+}
+
+#body-content div {
+  max-height: 30vh;
+}
+
+#body-content .toast {
+  width: 100%;
+}
+
+#body-content .toast-body .row div img {
+  height: 30%;
+}
+
+#body-content .carousel-item img {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,128 @@
+*{
+    margin : 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    // font-family: 'Roboto', sans-serif;
+}
+.text-green{
+    color: rgb(0, 187, 6);
+}
+
+#header{
+   div{
+    // align-items: flex-start;
+          nav{
+                   max-height: 60px;
+                    div{
+                        #navsearch{
+                            min-width: 40%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            input{
+                                width: 80%;
+                                border-radius: 0px ;
+                                border: none;
+                                padding: 8px 5px;
+                                box-shadow: 1px 1px 5px 0px  rgba(0, 0, 0, 0.3);
+
+                           }
+                           div{
+                              width: 20%;
+                              button{
+                                width: 100%;
+                                border-radius: none;
+                               }
+        
+                           }
+         
+                           }
+         
+                    }
+                    ul{
+                        width: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content:right;
+                           li{
+                               padding: 5px 15px;
+                             
+                           }
+                    }
+
+}}}
+.svg-cont{
+            height: 100%;
+            // background-color: aquamarine;
+    img{
+         height: 21px;
+
+    }
+}
+
+// section{
+//     background: none;
+//     #loginOnHover{
+//         // margin-top: -600px;
+//            z-index: 99;
+//            margin-left:20px ;
+//            width: 30%;
+//             .hoverComp{
+//                 width: 100%;
+//                 a, span{
+//                     width: 50%;
+//                     text-align: center;
+//                 }
+//             }
+//        }
+// }
+
+
+
+
+#categories{
+    div{
+        div{
+            img{
+                 width: 25%;
+            }
+            .hover-links{
+                cursor: pointer;
+                font-size: 14px;
+                color: black;
+                font-weight: 500;
+            }
+            .hover-links:hover{
+                color: crimson;
+            }
+        }
+    }
+}
+#body-content{
+    background-color: rgb(195, 255, 255);
+    div{
+        max-height: 30vh;
+    }
+    .toast{
+        width: 100%;
+    }
+    .toast-body{
+        .row{
+                           div{
+                               img{
+                                 height: 30%;
+                               }
+                           }
+        }
+ 
+    }
+
+
+    .carousel-item{
+        img{
+            width: 100%;
+        }
+    }
+}
