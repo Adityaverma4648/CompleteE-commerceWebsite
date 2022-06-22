@@ -7,6 +7,6 @@
     <title>DealOfDay</title>
 </head>
 <body>
-    
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure unde esse est deleniti, numquam vero dolore. Possimus, accusantium odio alias vel adipisci soluta repellat!
 </body>
 </html>

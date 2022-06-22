@@ -144,7 +144,7 @@
                     </div>
           </div>
     </section>
-    <section id="body-content">
+    <section id="body-content py-2">
             <div class="container py-2">
                 
 <!-- Carousel landing-->
@@ -183,9 +183,12 @@
             <div class="container Itemlist py-2 mt-2">
                 <div class="toast show">
                     <div class="toast-header border-bottom border-black-50">
-                      <div class="me-auto h4">Deal of the Day! 
+                      <div class="me-auto h4">
+                        Deal of the Day! 
                       </div>
-                      <a href="DealOfDay.php" class="btn btn-primary">View All</a>
+                      <div>
+                      <a href="dealofday.php" class="btn btn-primary">View All</a>
+                      </div>
                       </div>
 
     <div class="toast-body">
